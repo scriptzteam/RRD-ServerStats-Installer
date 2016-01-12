@@ -10,7 +10,7 @@ Installation:
 
 This all needs to be installed so answer -> Y
 
-`Reading package lists... Done  
+```Reading package lists... Done  
 Building dependency tree  
 Reading state information... Done  
 The following extra packages will be installed:  
@@ -28,7 +28,7 @@ The following NEW packages will be installed
 0 to upgrade, 45 to newly install, 0 to remove and 0 not to upgrade.  
 Need to get 8,467 kB of archives.  
 After this operation, 30.9 MB of additional disk space will be used.  
-Do you want to continue? [Y/n] Y`
+Do you want to continue? [Y/n] Y```
 
 Then you can visit your site for example https://1.2.3.4/serverstats
 
