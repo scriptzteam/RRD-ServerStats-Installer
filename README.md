@@ -4,9 +4,9 @@ RRD ServerStats Installer
 
 Installation:
 
-wget https://raw.githubusercontent.com/scriptzteam/RRD-ServerStats-Installer/master/install.sh
+`wget https://raw.githubusercontent.com/scriptzteam/RRD-ServerStats-Installer/master/install.sh`
 
-sh install.sh
+`sh install.sh`
 
 This all needs to be installed so answer -> Y
 Reading package lists... Done
