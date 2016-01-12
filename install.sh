@@ -39,7 +39,7 @@ sh /usr/share/doc/serverstats/examples/traffic.sh
 chmod 777 /home/rrd_traffic/*
 #crontab -e
 #backup cron, just in case :D
-cp /var/spool/cron/crontabs/root /var/spool/cron/crontabs/root.backup
+cp /var/spool/cron/crontabs/root /root/root.backup
 #add cron
 croncmd="php /usr/share/serverstats/update.php > /dev/null 2>&1"
 cronjob="* * * * * $croncmd"
