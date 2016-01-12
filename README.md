@@ -8,8 +8,6 @@ wget https://raw.githubusercontent.com/scriptzteam/RRD-ServerStats-Installer/mas
 
 sh install.sh
 
-sh install.sh
-
 This all needs to be installed so answer -> Y
 Reading package lists... Done
 Building dependency tree
