@@ -45,7 +45,7 @@ cronjob="* * * * * $croncmd"
 ( crontab -l | grep -v "$croncmd" ; echo "$cronjob" ) | crontab -
 
 croncmd="sh /usr/share/doc/serverstats/examples/traffic.sh > /dev/null 2>&1"
-cronjob="*1 * * * * $croncmd"
+cronjob="*/1 * * * * $croncmd"
 ( crontab -l | grep -v "$croncmd" ; echo "$cronjob" ) | crontab -
 
 #* * * * * php /usr/share/serverstats/update.php > /dev/null 2>&1
